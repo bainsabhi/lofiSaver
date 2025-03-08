@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Lo-Fi Backend Sender",
+    "version": "1.0",
+    "description": "Sends YouTube video ID and timestamp to a Flask backend.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/watch?v=*"],
+            "js": ["content.js"]
+        }
+    ]
+}

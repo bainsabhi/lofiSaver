@@ -1,0 +1,9 @@
+# Ignore environment variable files
+.env
+
+# Ignore final CSV output file (if generated)
+final.csv
+
+# Ignore virtual environment folder
+venv/
+
